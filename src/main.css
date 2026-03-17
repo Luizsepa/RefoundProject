@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* @theme {
+  --default-font-family: "Open Sans";
+} */
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
