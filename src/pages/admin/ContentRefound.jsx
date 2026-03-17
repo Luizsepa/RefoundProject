@@ -1,4 +1,3 @@
-import list from "../../db/db.js";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button.jsx";
 import { useParams, useNavigate } from "react-router";
