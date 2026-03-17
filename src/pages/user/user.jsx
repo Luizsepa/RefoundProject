@@ -81,9 +81,10 @@ export function UserDashboard() {
     });
     console.log(datas.data);
     if (datas.data.status === 200) {
-      if (confirm("ENVIADO COM SUCESSO")) {
-        window.location.href = "/";
-      }
+      alert("Enviado com sucesso!!");
+      window.location.href = "/";
+    } else {
+      alert("Algo deu errado!!");
     }
   }
 
